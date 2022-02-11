@@ -84,15 +84,17 @@ a{
 `
 const RightMenu = styled.div`
     a{
-    font-weight:600;
+    font-weight:400;
     text-transformation: uppercase;
-    margin-right: 10px;
+    margin-right: 20px;
     flex-wrap: nowrap;
+    top: 0;
 }
 
 `
 const CustomMenu = styled(MenuIcon)`
     cursor:pointer;
+    
 `
 const BurgerNav = styled.div`
 position: fixed;
@@ -101,7 +103,7 @@ bottom: 0;
 right: 0;
 background: white;
 width: 300px;
-z-index: 16;
+z-index: 100;
 list-style: none;
 padding: 20px;
 display: flex;
