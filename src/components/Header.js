@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import styled from 'styled-components'
-import MenuIcon from '@material-ui/icons/Menu';
-import CloseIcon from '@material-ui/icons/Close';
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 import { selectCars } from '../features/car/carSlice';
 import { useSelector } from 'react-redux';
 function Header() {
